@@ -1,6 +1,3 @@
-# config/routes.yaml
-
-# Définir la route /welcome manuellement
 welcome:
   path: /welcome
   controller: App\Controller\BonjourController::welcome
