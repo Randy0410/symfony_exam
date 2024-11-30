@@ -1,5 +1,12 @@
+# config/routes.yaml
+
+# Définir la route /welcome manuellement
+welcome:
+  path: /welcome
+  controller: App\Controller\BonjourController::welcome
+
 controllers:
-    resource:
-        path: ../src/Controller/
-        namespace: App\Controller
-    type: attribute
+  resource:
+    path: ../src/Controller/
+    namespace: App\Controller
+  type: attribute
